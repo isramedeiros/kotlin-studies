@@ -31,4 +31,12 @@ fun arrays() {
 
     // recuperando o total de elementos do Array
     println("Nossa lista de compras possui ${shoppingList.size} itens")
+
+    // acessando itens do array
+    println("Listando todos os itens: ")
+    println(shoppingList[0]) // primeiro item do array
+    println(shoppingList[1]) // segundo item do array
+    println(shoppingList[2]) // terceiro item do array
+    println(shoppingList[3] + "\n") // quarto item + nova linha
+    println("Index 2 do Array inferredShoppingList é ${inferredShoppingList[2]}")
 }
