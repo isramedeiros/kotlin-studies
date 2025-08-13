@@ -10,4 +10,8 @@ fun main() {
 
     println(nomeCachorro)
     println(sobrenomeCanino)
+
+    val idade: Int = 2;
+
+    println("O ${nomeCachorro + " " + sobrenomeCanino} tem ${idade} anos.")
 }
